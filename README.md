@@ -1,3 +1,21 @@
+Expense Splitter - Kotlin Multiplatform app Targetting only web
+
+Completely build using kotlin and Compose Multiplatform.
+
+**How to use**? 
+(web app is now live at https://rupee-money-manager.web.app/)
+1. start by adding persons
+2. Add respective expenses to each person
+3. Rest will be handled by the code you can see who owes who at the bottom
+
+**Things under development**
+1. Expense History
+2. Delete past Expenses
+3. Expense Description and other details
+
+
+**Development/Deployment Instructions**:
+
 This is a Kotlin Multiplatform project targeting Web.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
