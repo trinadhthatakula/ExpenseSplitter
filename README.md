@@ -1,4 +1,4 @@
-**Expense Splitter - Kotlin Multiplatform app Targetting only web**
+# **Expense Splitter - Kotlin Multiplatform app Targetting only web**
 
 Completely build using kotlin and Compose Multiplatform.
 

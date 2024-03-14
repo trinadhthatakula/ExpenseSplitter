@@ -49,7 +49,7 @@ fun App() {
             TextField(
                 value = newPersonName,
                 onValueChange = { newPersonName = it },
-                label = { Text("Add New Person") },
+                label = { Text("Add New Person Name") },
                 modifier = Modifier.padding(20.dp).width(200.dp)
             )
             Button(onClick = {
