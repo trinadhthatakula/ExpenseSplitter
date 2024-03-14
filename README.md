@@ -1,4 +1,4 @@
-# **Expense Splitter - Kotlin Multiplatform app Targetting only web**
+# **Expense Splitter - Kotlin Multiplatform app Targeting only web**
 
 Completely build using kotlin and Compose Multiplatform.
 
@@ -12,6 +12,11 @@ Completely build using kotlin and Compose Multiplatform.
 1. Expense History
 2. Delete past Expenses
 3. Expense Description and other details
+
+**Known issues:**
+1. The app is not responsive and is not suitable for mobile devices as Soft keyboard is not supported in compose web yet and here is a [link to the issue](https://github.com/JetBrains/compose-multiplatform/issues/3943)
+2. Certain elements on the page are not scrollable and are not visible on smaller screens, they are meant to be scrollable but right now scroll behaviour doesn't work.
+
 
 
 **Development/Deployment Instructions**:
