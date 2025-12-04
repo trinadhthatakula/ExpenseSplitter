@@ -55,7 +55,7 @@ fun App() {
                 value = newPersonName,
                 onValueChange = { newPersonName = it },
                 label = { Text("Add New Person Name") },
-                modifier = Modifier.padding(20.dp).width(200.dp)
+                modifier = Modifier.padding(20.dp)
             )
             Button(onClick = {
                 if (newPersonName.isNotEmpty()) {
